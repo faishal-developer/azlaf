@@ -55,7 +55,7 @@ const MultiItemsCarousel = ({children}:Iprops) => {
                 max: 500,
                 min: 0
               },
-              items: 1.5,
+              items: 1,
               partialVisibilityGutter: 30
             },
             tablet: {
@@ -63,7 +63,7 @@ const MultiItemsCarousel = ({children}:Iprops) => {
                 max: 1180,
                 min: 900
               },
-              items: 3.5,
+              items: 3,
               partialVisibilityGutter: 30
             },
             min_tablet: {
@@ -71,7 +71,7 @@ const MultiItemsCarousel = ({children}:Iprops) => {
                 max: 900,
                 min: 500
               },
-              items: 2.5,
+              items: 2,
               partialVisibilityGutter: 30
             }
           }}
