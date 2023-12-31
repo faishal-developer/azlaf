@@ -15,6 +15,7 @@ body {
 
 .container_max{
   max-width: 1220px;
+  padding:10px 0;
   margin: auto;
 }
 
