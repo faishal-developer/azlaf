@@ -14,8 +14,10 @@ const Products = () => {
           <p className={style.flash_para}>FlashSale</p>
           <div className={style.timer_cont}>
             <span className={style.end_in}>Ending in</span>
-            <span className={style.timer_btn}>14</span> :  
-            <span className={style.timer_btn}> 28</span> :  
+            <span className={style.timer_btn}>14</span> 
+            <span className={'text-primary'}> : </span> 
+            <span className={style.timer_btn}> 28</span> 
+            <span className={'text-primary'}> : </span>
             <span className={style.timer_btn}> 45</span>
           </div>
           

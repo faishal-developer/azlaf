@@ -2,8 +2,8 @@ export const productStyle = {
   container: "container_max bg-white p-3",
   flash_sale_cont: "flex justify-between",
   flash_sale: "flex",
-  flash_para: "mr-12 text-lg text-primary",
-  end_in: "text-muted_black mr-6 font-normal",
+  flash_para: "mr-5 md:mr-12 text-lg text-primary",
+  end_in: "text-muted_black mr-0 md:mr-6 font-normal",
   timer_cont: "text-base font-extrabold	 ",
   timer_btn:
     "bg-primary font-medium text-center px-2 py-1.5 inline-block text-white rounded",

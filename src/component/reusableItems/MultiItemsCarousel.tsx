@@ -53,9 +53,17 @@ const MultiItemsCarousel = ({children}:Iprops) => {
             mobile: {
               breakpoint: {
                 max: 500,
+                min: 400
+              },
+              items: 1.5,
+              partialVisibilityGutter: 30
+            },
+            mobile_sm: {
+              breakpoint: {
+                max: 400,
                 min: 0
               },
-              items: 2,
+              items: 1,
               partialVisibilityGutter: 30
             },
             tablet: {
@@ -63,7 +71,7 @@ const MultiItemsCarousel = ({children}:Iprops) => {
                 max: 1180,
                 min: 900
               },
-              items: 4,
+              items: 3.5,
               partialVisibilityGutter: 30
             },
             min_tablet: {
@@ -71,7 +79,7 @@ const MultiItemsCarousel = ({children}:Iprops) => {
                 max: 900,
                 min: 500
               },
-              items: 3,
+              items: 2.5,
               partialVisibilityGutter: 30
             }
           }}
