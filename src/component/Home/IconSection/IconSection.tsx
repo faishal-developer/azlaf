@@ -13,7 +13,7 @@ const IconSection = () => {
                         <Image className={iconStyle.image} height={30} width={30} src={items.image} alt='icon'/>
                         <span className='ml-1 text-center'>{items.title}</span>
                     </div>
-                    <span className='hidden lg:block'><FaAngleRight/></span>
+                    <span className={iconStyle.right_angle}><FaAngleRight/></span>
                 </div>
             ))}
         </div>
