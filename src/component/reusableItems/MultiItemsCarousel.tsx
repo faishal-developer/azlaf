@@ -53,17 +53,9 @@ const MultiItemsCarousel = ({children}:Iprops) => {
             mobile: {
               breakpoint: {
                 max: 500,
-                min: 400
-              },
-              items: 1.5,
-              partialVisibilityGutter: 30
-            },
-            mobile_sm: {
-              breakpoint: {
-                max: 400,
                 min: 0
               },
-              items: 1,
+              items: 1.5,
               partialVisibilityGutter: 30
             },
             tablet: {

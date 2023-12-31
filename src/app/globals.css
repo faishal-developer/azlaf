@@ -68,6 +68,25 @@ body {
   background: transparent;
 }
 
+.react-multiple-carousel__arrow--right {
+  background: white;
+  box-shadow: -1px -1px 1px #666,3px 3px 15px #666;
+}
+
+.react-multiple-carousel__arrow--right:before{
+  font-weight: bold;
+  color: black;
+}
+.react-multiple-carousel__arrow--left {
+  background: white;
+  box-shadow: -1px -1px 1px #666,3px 3px 15px #666;
+}
+
+.react-multiple-carousel__arrow--left:before{
+  font-weight: bold;
+  color: black;
+}
+
 @keyframes opacity{
   from{
     opacity: 0;
