@@ -69,22 +69,22 @@ body {
 }
 
 .react-multiple-carousel__arrow--right {
-  background: white;
-  box-shadow: -1px -1px 1px #666,3px 3px 15px #666;
+  background: white !important;
+  box-shadow:3px 3px 15px #666, inset -1px -1px 2px #666;
 }
 
 .react-multiple-carousel__arrow--right:before{
   font-weight: bold;
-  color: black;
+  color: black !important;
 }
 .react-multiple-carousel__arrow--left {
-  background: white;
-  box-shadow: -1px -1px 1px #666,3px 3px 15px #666;
+  background: white !important;
+  box-shadow: 3px 3px 15px #666, inset -1px -1px 2px #666;
 }
 
 .react-multiple-carousel__arrow--left:before{
   font-weight: bold;
-  color: black;
+  color: black !important;
 }
 
 @keyframes opacity{
