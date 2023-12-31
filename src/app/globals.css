@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0 0;
+  background-color: #F0F0F0;
+  font-family: 'Inter', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container_max{
+  max-width: 1220px;
+  margin: auto;
+}
+
+.animate-fade-in {
+  animation: fadeIn ease-in-out .5s;
+}
+.text-primary{
+  color: #F97316;
+}
+.react-multi-carousel-dot--active button {
+  background-color: #F97316 !important;
+}
+
+.text-white{
+  color: #fff;
+}
+.react-multi-carousel-list{
+  max-width: 1920px !important;
+  /* height: 350px; */
+}
+
+.bg_banner{
+  background: url('/banner1.png');
+}
+
+.right_200{
+  right:-150px;
+  border-left: 1px solid #eee;
+  top:0;
+  height: 100%;
+  width: 180px;
+  animation: opacity 1s;
+  z-index: 0;
+}
+
+.bg_mobile{
+  height: 50vh;
+  background-size: cover !important;
+  background: url('/mobile_banner.png');
+}
+.bg_opacity{
+  background-color: rgba(0, 0, 0, 0.171);
+}
+
+.input::placeholder {
+  color: #fff;
+  /* Change the color to your desired placeholder color */
+}
+
+.bg-transparent{
+  background: transparent;
+}
+
+@keyframes opacity{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
